@@ -1,0 +1,93 @@
+.single-pro{ 
+    display: flex; 
+    justify-content: flex-start; 
+    width: 80%; 
+    margin: 50px auto;   
+}
+
+
+
+.single{ 
+
+
+    display: flex; 
+    flex-direction: row; 
+border-radius: 30px;  
+background-color: white;  
+align-items: center;
+
+padding: 15px; 
+gap: 3rem;
+
+
+} 
+
+
+.single-btn{ 
+
+    padding: 8px 10px; 
+    border-radius: 10px; 
+   outline: none; 
+   border: none; 
+   transition: .4s; 
+width: fit-content;
+} 
+
+.single-btn:hover{ 
+    transition: .4s; 
+    background-color: rgb(172, 172, 172); 
+    color: white; 
+    border: 2px solid white;
+}
+.single img{ 
+width: 350px;
+
+} 
+.single-info{  
+width: 50%;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around;
+gap: 1.5rem;
+
+
+}
+.category{ 
+
+padding: 8px; 
+background-color: rgb(209, 209, 209);
+font-weight: bolder; 
+border-radius: 10px; 
+width: max-content; 
+color: rgb(0, 0, 0); 
+text-shadow: 2px 2px 5px rgb(73, 73, 73);
+
+}
+ 
+
+.price-sec{ 
+
+    font-size: large; 
+    color: rgb(2, 94, 2); 
+    font-weight: bold;
+
+} 
+
+.desc{ 
+
+
+font-size: large;
+
+
+} 
+.title{ 
+    margin: 0; 
+    padding: 0; 
+    text-overflow:unset;
+        white-space: none;
+        overflow: none; 
+        font-size: larger; 
+       width: fit-content; 
+color: rgb(41, 40, 40);
+       
+}
